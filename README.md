@@ -56,4 +56,4 @@ sudo ./slack-daemon-alerts.sh jenkins $WEBHOOK_URL
 
 ![Started](https://github.com/knoldus/slack-alert-daemon-service/blob/master/images/slack-running.png?raw=true)
 
-Incase of any queries, you can email me: [dipayan.pramanik@knoldus.com](dipayan.pramanik@knoldus.com)
+Incase of any queries, you can email me at: [dipayan.pramanik@knoldus.com](dipayan.pramanik@knoldus.com)
