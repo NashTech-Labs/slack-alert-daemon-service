@@ -9,15 +9,15 @@ We will be using bash scripting and Slack Webhook Integration to monitor daemon 
 We need to integrate the Slack App `Incoming Webhooks` to the Slack channel we want to send alerts to.
 * So we need to add `Incoming Webhooks` to the app directory in Slack.
 
-![Incoming Webhook](https://github.com/knoldus/slack-alert-daemon-service/blob/master/images/slack-integration.png?raw=true)
+![Incoming Webhook](https://github.com/knoldus/slack-alert-daemon-service/blob/feat/images/slack-app.png?raw=true)
 
 * Then we select a channel to integrate the webhook to
 
-![channel](https://github.com/knoldus/slack-alert-daemon-service/blob/master/images/slack-channel-select.png?raw=true)
+![channel](https://github.com/knoldus/slack-alert-daemon-service/blob/feat/images/slack-channel.png?raw=true)
  
 * When we integrate the webhook, we will get the link for the webhook which we will be using later for sending alerts. So store the Webhook URL safely.
 
-![Webhook URL](https://github.com/knoldus/slack-alert-daemon-service/blob/master/images/slack-hook-uri.jpg?raw=true)
+![Webhook URL](https://github.com/knoldus/slack-alert-daemon-service/blob/feat/images/slack-hook-url.jpg?raw=true)
 
 ## Executing the script
 The script uses environment variables and arguments to configure:
@@ -46,14 +46,14 @@ sudo ./slack-daemon-alerts.sh jenkins $WEBHOOK_URL
 ```
 #### Service Failed Snapshot
 
-![Failed](https://github.com/knoldus/slack-alert-daemon-service/blob/master/images/failed-alert.png?raw=true)
+![Failed](https://github.com/knoldus/slack-alert-daemon-service/blob/feat/images/alert-failed.png?raw=true)
 
 #### Service Stopped Snapshot
 
-![Stopped](https://github.com/knoldus/slack-alert-daemon-service/blob/master/images/slack-stopped-alert.png?raw=true)
+![Stopped](https://github.com/knoldus/slack-alert-daemon-service/blob/feat/images/alert-stopped.png?raw=true)
 
 #### Service Started Snapshot
 
-![Started](https://github.com/knoldus/slack-alert-daemon-service/blob/master/images/slack-running.png?raw=true)
+![Started](https://github.com/knoldus/slack-alert-daemon-service/blob/feat/images/aler-started.png?raw=true)
 
 Incase of any queries, you can email me at: [dipayan.pramanik@knoldus.com](dipayan.pramanik@knoldus.com)
